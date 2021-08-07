@@ -1,0 +1,2080 @@
+/* Color Scheme:
+Dark blue: #567999
+Dark beige:#dabf94
+Light beige:#ffe9c7
+Grey:#948f88
+Light blue:#93b8d9
+Body font: 'Lato','Aveni','Adobe Heiti Std','Segoe UI','Trebuchet MS',sans‑serif
+Heading font: Merriweather,
+*/
+
+/* Header*/
+header {
+	position: relative;
+}
+
+.description img {
+	width: 10rem;
+	border-radius: 50%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #dabf94;
+	margin-top: 3rem;
+}
+
+
+.description {
+	border-bottom: 0.3rem solid #dabf94;
+	padding: 2.5rem;
+}
+
+.about-page {
+	background-image: url(../img/filter.png), url(../img/paper.jpg);
+	background-size: cover;
+	background-attachment: scroll;
+	height: auto;
+	background-position: center;
+}
+
+header section {
+	background-color: #212121;
+	padding: 3.5rem;
+	/* padding-top: 10rem; */
+	text-align: left;
+	max-width: 100%;
+}
+
+
+.contactbox header section {
+	background-color: #212121;
+	padding: 3.5rem;
+	padding-top: 5.5rem;
+	text-align: left;
+	max-width: 100%;
+}
+
+header p {
+	color: #ffe9c7;
+	text-align: center;
+	opacity: 0.8;
+}
+
+/* Heading */
+
+body {
+	font-family: 'Merriweather', 'Aveni', 'Adobe Heiti Std', 'Segoe UI', 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+	color: #ffe9c7;
+	font-size: 2rem;
+	text-align: center;
+	text-shadow: 2px 1px #567999;
+}
+
+h2 {
+	color: #93b8d9;
+}
+
+.description h3 {
+
+	color: #ffe9c7;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.description p {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.job h3 {
+	color: #93b8d9;
+	font-size: 1.3rem;
+	margin-bottom: 0;
+	text-shadow: 1px 1px #212121;
+}
+
+h4 {
+	color: #93b8d9;
+	font-size: 1.2rem;
+	text-align: left;
+}
+
+.job h2 {
+	color: #93b8d9;
+	font-size: 2rem;
+	text-decoration: underline;
+	padding-bottom: 2rem;
+}
+
+.edu h2 {
+	color: #dabf94;
+	font-size: 1.4rem;
+	text-decoration: underline;
+}
+
+.edu h3 {
+	color: #93b8d9;
+	font-size: 1.2rem;
+}
+
+.description h2 {
+	color: #ffe9c7;
+	font-size: 1.4rem;
+	text-align: center;
+	line-height: 0.8rem;
+}
+
+.about-page h1 {
+	color: #ffe9c7;
+	font-size: 2.0rem;
+}
+
+.about-page p {
+	color: #ffe9c7;
+	font-family: 'Lato', 'Aveni', 'Adobe Heiti Std', 'Segoe UI', 'Trebuchet MS', sans-serif;
+	font-size: 1rem;
+	text-align: center;
+	opacity: 0.5;
+}
+
+.contact h1 {
+	color: #ffe9c7;
+	font-size: 2rem;
+	text-align: left;
+}
+
+.contact h2 {
+	color: #ffe9c7;
+	font-size: 1.4rem;
+	text-align: center;
+	padding-top: 3rem;
+}
+
+.contact p {
+	color: #ffe9c7;
+	font-family: 'Lato', 'Aveni', 'Adobe Heiti Std', 'Segoe UI', 'Trebuchet MS', sans-serif;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.contact-text {
+	background-image: url(../img/filter.png), url(../img/contact.jpeg);
+	background-size: cover;
+	background-attachment: scroll;
+	height: auto;
+	background-position: center;
+
+}
+
+.about-me h2 {
+	color: #ffe9c7;
+	font-size: 1.4rem;
+}
+
+.about-me-2 h3 {
+	color: #ffe9c7;
+	font-size: 1.3rem;
+	text-decoration: underline;
+	text-align: left;
+}
+
+.about-me {
+	position: relative;
+}
+
+.about-me i {
+	position: absolute;
+	top: 0.3rem;
+	left: 16.5rem;
+	color: #ffe9c7;
+	text-shadow: 1.4px 1px #93b8d9;
+}
+
+.about-me-1 h3 {
+	color: #93b8d9;
+	font-size: 1.3rem;
+	text-decoration: underline;
+	padding: 0;
+}
+
+.job-titles h3 {
+	color: #93b8d9;
+	text-shadow: 1px 1px #212121;
+	font-size: 1rem;
+}
+
+#work-exp {
+	padding-bottom: 2rem;
+}
+
+/* General */
+p {
+	color: #ffe9c7;
+	font-family: 'Lato', 'Aveni', 'Adobe Heiti Std', 'Segoe UI', 'Trebuchet MS', sans-serif;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+
+.job time {
+	font-family: 'Lato', 'Aveni', 'Adobe Heiti Std', 'Segoe UI', 'Trebuchet MS', sans-serif;
+	color: #ffe9c7;
+	font-size: 1rem;
+}
+
+.homepage article {
+	font-family: 'Lato', 'Aveni', 'Adobe Heiti Std', 'Segoe UI', 'Trebuchet MS', sans-serif;
+	color: #567999;
+	font-size: 1rem;
+	text-align: left;
+	max-width: 70%;
+	padding: 4rem;
+	padding-top: 0;
+	padding-bottom: 1rem;
+	margin: 0 auto;
+}
+
+article ul {
+	color: #ffe9c7;
+	font-family: 'Lato', 'Aveni', 'Adobe Heiti Std', 'Segoe UI', 'Trebuchet MS', sans-serif;
+	font-size: 1rem;
+	max-width: 70%;
+	line-height: 1.6rem;
+}
+
+.job {
+	padding-top: 1rem;
+}
+
+footer {
+	text-align: center;
+	max-width: 100%;
+	margin: 2rem;
+	font-weight: bold;
+}
+
+aside {
+	background-color: black;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+aside h3 {
+	color: #ffe9c7;
+	font-size: 1.4rem;
+	text-align: center;
+	max-width: 100%;
+	margin: 0.6rem;
+}
+
+.basics input {
+	width: 14rem;
+	height: 1.6rem;
+}
+
+input[type=checkbox] {
+	transform: scale(1.6);
+}
+
+input[type=radio] {
+	transform: scale(1.6);
+}
+
+.edu p,
+time {
+	font-size: 1rem;
+	color: #ffe9c7;
+}
+
+.about-me p {
+	line-height: 2rem;
+}
+
+.about-me li {
+	line-height: 2.4rem;
+}
+
+.job {
+	line-height: 2rem;
+}
+
+footer p {
+	font-size: 0.7rem;
+}
+
+.separator:first-of-type {
+	/* background-image: url(../img/filter.png), url(../img/work.jpg); */
+	background-attachment: fixed;
+	background-position: left;
+
+}
+
+.separator:nth-of-type(2) {
+	background-image: url(../img/filter.png), url(../img/library.jpg);
+	background-attachment: fixed;
+	background-position: center;
+
+}
+
+.separator h2 {
+	color: #ffe9c7;
+	font-size: 1.6rem;
+	text-align: center;
+	text-shadow: 2px 1px #567999;
+	padding: 3rem;
+	margin: 0;
+	box-sizing: inherit;
+}
+
+
+.about-me-1 img {
+	float: right;
+	margin-bottom: 1rem;
+	margin-left: 0.8rem;
+	width: 35%;
+	height: auto;
+}
+
+.about-me-2 img {
+	float: left;
+	display: block;
+	width: 32%;
+	height: auto;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+	margin-right: 2rem;
+}
+
+.about-me-1 {
+	margin: 3rem;
+}
+
+.about-me-2 {
+	margin: 3rem;
+}
+
+.homeback {
+	background-image: url(../img/litefilter.png), url(../img/home-cinema.jpg);
+	left: 0;
+	right: 0;
+	background-color: #151515;
+}
+
+.porthomeback {
+	background-image: url(../img/litefilter.png), url(../img/home-cinema.jpg);
+	left: 0;
+	right: 0;
+	background-color: #151515;
+	margin-top: 5.5rem;
+}
+
+#home-aside {
+	margin-top: 48rem;
+}
+
+.hometext {
+	text-align: center;
+	height: 5rem;
+	padding-top: 3rem;
+	font-weight: 300;
+	font-size: 1.3rem;
+	margin-top: 4rem;
+	margin-left: 0;
+	margin-right: 0;
+	animation-name: myframe-2;
+	animation-duration: 4s;
+	animation-timing-function: ease;
+}
+
+
+@keyframes myframe-2 {
+	from {
+		margin-left: 100%;
+		width: 300%;
+		transform: scale(0);
+	}
+
+	to {
+		margin-left: 0%;
+		width: 100%;
+		transform: scale(1.2);
+	}
+}
+
+.homefooter {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+/* Navigations*/
+
+nav ul {
+	font-family: 'Lato', 'Aveni', 'Adobe Heiti Std', 'Segoe UI', 'Trebuchet MS', sans-serif;
+	font-size: 1rem;
+	padding: 0.5rem;
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+}
+
+nav ul li {
+	padding: 1rem;
+	margin-right: 1rem;
+	width: 5rem;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+nav ul li a {
+	color: #ffe9c7;
+	border-bottom: 0.8px solid #ffe9c7;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0.4rem;
+
+}
+
+nav a:hover {
+	background-color: #ffe9c7;
+	color: #212121;
+}
+
+nav {
+	box-shadow: 2px 2px white;
+	position: fixed;
+	padding: 0.3rem;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #151515;
+	z-index: 9999;
+
+
+}
+
+.portfolio ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.portfolio ul li {
+	margin-right: 1rem;
+	font-size: 1.3rem;
+	line-height: 1.2rem;
+
+}
+
+.social ul li a {
+	color: #ffe9c7;
+	text-decoration: none;
+	text-shadow: 1.5px 1.5px #212121;
+}
+
+.social ul li a:hover {
+	color: whitesmoke;
+}
+
+/* Anchortags */
+
+aside {
+	text-align: center;
+	font-family: 'Lato', 'Aveni', 'Adobe Heiti Std', 'Segoe UI', 'Trebuchet MS', sans-serif;
+}
+
+aside a {
+	color: #ffe9c7;
+	font-size: 1rem;
+	text-align: center;
+}
+
+/* #hamburger-menu {
+	position: absolute;
+	top: 2rem;
+	right: 3rem;
+	display: block;
+}
+
+#hamburger-menu i {
+	color: #ffe9c7;
+} */
+
+#my-header {
+	padding: 0;
+}
+
+
+
+/*background */
+
+header,
+body,
+footer {
+	background-color: black;
+}
+
+body {
+	margin: 0;
+}
+
+/*CONTACT FORM */
+
+.contactpage article {
+	padding: 0rem;
+	padding-left: 5.1rem;
+	margin: 6rem auto;
+}
+
+.contactpage header {
+	font-size: 2rem;
+}
+
+.details {
+	display: block;
+}
+
+#country-select {
+	display: block
+}
+
+form .header {
+	padding: 0.7rem;
+	text-align: center;
+	background: #212121;
+	color: white;
+	font-size: 1.6rem;
+	max-width: 20rem;
+	border: 0.2px solid white;
+	margin: 0;
+	border-width: 0.2rem;
+	font-family: "Lato";
+}
+
+.basics {
+	padding-left: 0;
+	font-family: 'Lato';
+	width: 45%;
+}
+
+label {
+	font-family: "Lato";
+	font-size: 1.1rem;
+}
+
+.contactpage form {
+	background-color: #948f88;
+	width: 30%;
+	color: white;
+	padding-bottom: 4rem;
+	float: left;
+	margin-right: 15%;
+	padding: 2rem;
+	margin-bottom: 6rem;
+	box-sizing: border-box;
+	margin-left: 0%
+}
+
+#country-select {
+	font-family: "Lato";
+	background-color: #dabf94;
+	color: dimgrey;
+	font-size: 1rem;
+}
+
+.contactpage {
+	font-family: "Lato";
+	font-weight: 300;
+	color: #212121;
+	font-size: 1.4rem;
+}
+
+textarea {
+	font-size: 1rem;
+}
+
+
+
+/*social icons*/
+.social {
+	margin-right: 0;
+	box-sizing: border-box;
+}
+
+.social ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.social ul li {
+	margin-right: 1rem;
+	display: inline-block;
+
+}
+
+.social ul li a {
+	color: #ffe9c7;
+	text-decoration: none;
+	text-shadow: 1.5px 1.5px #212121;
+}
+
+.social ul li a:hover {
+	color: whitesmoke;
+}
+
+.social h2 {
+	text-shadow: 1.5px 1.5px #212121;
+	margin: 0;
+	padding: 0;
+}
+
+.contactbox aside {
+	clear: both;
+}
+
+.form social,
+.about-me i {
+	clear: both;
+}
+
+.about-me i {
+	display: none;
+}
+
+.edu {
+	padding-bottom: 4rem;
+	padding-top: 1rem;
+}
+
+.work-exp p {
+	display: inline-flex;
+	box-sizing: border-box;
+	padding-left: 1rem;
+	font-weight: 500;
+}
+
+.work-exp ul:first-of-type {
+	list-style-type: none;
+	padding-left: 1rem;
+}
+
+.job-titles p {
+	display: inline-flex;
+	box-sizing: border-box;
+	padding-left: 1rem;
+	font-weight: 500
+}
+
+.job-titles ul:first-of-type {
+	list-style-type: none;
+	padding-left: 1rem;
+}
+
+.map {
+	display: none;
+}
+
+/*Slider Styles*/
+.splide__track h4 {
+	color: #ffe9c7;
+	position: absolute;
+	bottom: 1rem;
+	right: 4.6rem;
+	font-size: 1rem;
+	background-color: #212121;
+	padding: 0.5rem;
+	opacity: 0.8;
+	font-family: 'Lato', 'Aveni', 'Adobe Heiti Std', 'Segoe UI', 'Trebuchet MS', 'sans‑serif';
+	text-shadow: 1px 2px black;
+}
+
+.hero-slider .splide__slide {
+	position: relative;
+}
+
+.splide__track img {
+	width: 100%;
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+}
+
+/*Web design page*/
+
+.web-dsn,
+.sheying {
+	margin: 0 auto;
+	max-width: 70%;
+}
+
+.web-dsn,
+.sheying img {
+	width: 50%;
+}
+
+
+/*Home Container*/
+
+.services .container {
+	display: grid;
+	align-items: center;
+	justify-items: center;
+}
+
+.services .item {
+	display: inline-grid;
+	grid-row-gap: 2rem;
+	margin: 5rem;
+	width: 5rem;
+	text-align: center;
+	margin-top: 7rem;
+	margin-bottom: 0;
+}
+
+.services .item a:hover {
+	border-radius: 10%;
+	background: #948f88;
+	color: #ffe9c7;
+	transform: scale(1.1) translate(0, 5px) rotate(2deg);
+
+}
+
+.services .item a {
+	transition: background .5s ease-in, transform .2s ease-in-out;
+}
+
+
+.services .item p {
+	font-size: 1.2rem;
+	margin-bottom: 0;
+	text-align: center;
+	max-width: 5rem;
+	border-radius: 5%;
+
+}
+
+.services .item i::before {
+	background-color: gray;
+	color: antiquewhite;
+	padding: 1.5rem;
+	border-radius: 50%;
+	margin-bottom: 1rem;
+	text-shadow: 2px 2px #212121;
+}
+
+.separator-portfolio {
+	background-image: url(../img/filter.png), url(../img/portfolio6.jpg);
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+.separator-portfolio h2 {
+	color: #ffe9c7;
+	font-size: 1.8rem;
+	font-weight: 600;
+	text-align: center;
+	padding: 3rem;
+	box-sizing: inherit;
+	margin-bottom: 5rem;
+}
+
+.portfolio img {
+	width: 100%;
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+	height: auto;
+}
+
+.portfolio {
+	background-color: black;
+}
+
+.portfolio .item p {
+	margin-top: 0.2rem;
+	margin-bottom: 1rem;
+	margin-left: 0;
+	font-size: 1rem;
+}
+
+.portfolio .item h4 {
+	font-size: 1.2rem;
+	margin: 0;
+}
+
+.portfolio .item a {
+	font-family: 'Lato', 'Aveni', 'Adobe Heiti Std', 'Segoe UI', 'Trebuchet MS', 'sans‑serif';
+	font-size: 1.2rem;
+	letter-spacing: 0.1rem;
+	font-weight: 600;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	color: #567999;
+	background-color: #dabf94;
+	max-width: 10rem;
+	padding: 1rem;
+	cursor: hand;
+	transition: background .3s ease-in, transform .3s .2s ease-in-out;
+
+
+}
+
+.portfolio .item a:hover {
+	background: #93b8d9;
+	color: #ffe9c7;
+	transform: scale(1.3) translate(-10px, -10px);
+}
+
+article.portfolio .item {
+	justify-items: center;
+	display: grid;
+	grid-template-areas:
+		"img img"
+		"client-h4 title-h4"
+		"client-p title-p"
+		"type-h4 des-h4"
+		"type-p des-p"
+		"button button";
+	grid-gap: 1rem 2rem;
+	grid-auto-columns: 1fr 1fr minmax(30%, 60%) 1fr;
+	grid-auto-rows: repeat(6, 1fr);
+}
+
+article.portfolio .item img {
+	grid-area: img;
+}
+
+article.portfolio .item h4.type {
+	grid-area: type-h4;
+}
+
+article.portfolio .item p.type {
+	grid-area: type-p;
+}
+
+article.portfolio .item h4.title {
+	grid-area: title-h4;
+}
+
+article.portfolio .item p.title {
+	grid-area: title-p;
+}
+
+article.portfolio .item h4.client {
+	grid-area: client-h4;
+}
+
+article.portfolio .item p.client {
+	grid-area: client-p;
+}
+
+article.portfolio .item h4.des {
+	grid-area: des-h4;
+}
+
+article.portfolio .item p.des {
+	grid-area: des-p;
+}
+
+.portfolio .implicit {
+	display: grid;
+	grid-auto-columns: repeat(4, 1fr)
+}
+
+/*Portfolio page*/
+
+.portfolio-page .flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.portfolio-page .flex-container .item {
+	width: 15rem;
+	height: 10rem;
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 1rem;
+	background-color: #212121;
+	position: relative;
+	text-decoration: none;
+
+}
+
+
+.portfolio-page .flex-container .item h4 {
+	color: #ffffff;
+	position: absolute;
+	right: 0;
+	bottom: 0.5rem;
+	text-shadow: 1px 1px #212121;
+	background-color: #a0522d;
+	padding: 0.5rem;
+	margin-right: 0;
+}
+
+.portfolio-page .flex-container .item.portfolio-fs {
+	/* background-image: url('../img/filmsales.jpg'); */
+}
+
+.portfolio-page .flex-container .item.portfolio-webdesn {
+	/* background-image: url('../img/webdesn.jpg'); */
+}
+
+.portfolio-page .flex-container .item.portfolio-ux {
+	/* background-image: url('../img/uxdesign.jpg'); */
+}
+
+.portfolio-page .flex-container .item.portfolio-gd {
+	/* background-image: url('../img/photography.jpg'); */
+}
+
+/*Photography Page*/
+.sheying .flex-container {
+	background-color: #948f88;
+	opacity: 90%;
+}
+
+
+.sheying .flex-container .gallery1 {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+	padding: 1rem;
+	box-shadow: 0 2px #212121;
+}
+
+
+
+
+
+/***************************************
+			Landscape phone and up
+***************************************************/
+@media only screen and (min-width: 480px) {
+	/*    About page*/
+
+	.about-me-1 img {
+		margin-top: 0;
+		width: 45%;
+		margin-bottom: 1rem;
+	}
+
+	.about-me-2 img {
+		width: 55%;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		margin-right: 2rem;
+	}
+
+	.about-page img {
+		width: 10rem;
+		border-radius: 50%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+		border: 2px solid #dabf94;
+		margin-top: 2rem;
+	}
+
+	header p,
+	.about-page p {
+		color: #ffe9c7;
+		text-align: center;
+		opacity: 0.8;
+		font-size: 1rem;
+	}
+
+	/* Heading */
+
+	h1,
+	.about-page h1 {
+		font-size: 1.4rem;
+	}
+
+	.description h3 {
+		font-size: 1rem;
+	}
+
+	.job h3 {
+		font-size: 1.4rem;
+	}
+
+	h4 {
+		font-size: 1.2rem;
+		text-align: left;
+		margin: 0.5rem;
+		margin-left: 0;
+	}
+
+	.job h2 {
+		color: #93b8d9;
+		font-size: 2rem;
+		text-decoration: underline;
+		padding-bottom: 2rem;
+	}
+
+	.job time {
+		font-size: 1rem;
+	}
+
+	article ul {
+		font-size: 1rem;
+	}
+
+	article ul li {
+		padding: 0.3rem;
+		line-height: 1.3rem;
+	}
+
+	.about-me li,
+	.about-me p {
+		line-height: 2rem;
+	}
+
+	p,
+	.edu p,
+	time,
+	.contact p {
+		font-size: 1rem;
+		margin: 0;
+	}
+
+	.edu h3,
+	.about-me h4 {
+		font-size: 1.1rem;
+		padding-top: 0.4rem;
+	}
+
+	.separator h2 {
+		font-size: 1.5rem;
+		padding: 1.7rem;
+	}
+
+	.about-me-1 h3,
+	.about-me h3 {
+		font-size: 1.3rem;
+	}
+
+
+	.contact h3 {
+		font-size: 1.3rem;
+	}
+
+	.contact a,
+	aside a {
+		font-size: 0.9rem;
+		line-height: 1.4rem;
+	}
+
+	footer p {
+		font-size: 0.8rem;
+	}
+
+
+	.job-titles h3 {
+		margin-top: 1.3rem;
+		line-height: 1.7rem
+	}
+
+	nav a {
+		font-size: 0.8rem;
+
+	}
+
+	nav {
+		padding: 0;
+		display: none;
+	}
+
+	.btn-top {
+		display: inline-block;
+		position: fixed;
+		bottom: 1.5rem;
+		right: 1.5rem;
+	}
+
+	.btn-top i {
+		width: 0;
+		padding: 0;
+	}
+
+	.btn-top a {
+		color: #dabf94;
+		text-shadow: 1px 2px #212121;
+
+	}
+
+	button {
+		padding: 0;
+		border-width: 0;
+	}
+
+	.social {
+		width: 50%;
+		box-sizing: border-box;
+		margin-top: 0;
+	}
+
+	.social ul li {
+		margin-right: 0;
+		display: inline-flex;
+
+	}
+
+	label {
+		font-family: "Lato";
+		font-size: 1rem;
+	}
+
+	input[type=checkbox] {
+		transform: scale(1.1);
+	}
+
+	input[type=radio] {
+		transform: scale(1.1);
+	}
+
+	textarea {
+		font-size: 0.9rem;
+	}
+
+	.contact h2 {
+		font-size: 1.6rem;
+	}
+
+	nav ul li {
+		margin-right: 1.2rem;
+		width: 3rem;
+	}
+
+	/*Home page*/
+	.homefooter p {
+		font-size: 0.7rem;
+		text-align: center;
+		font-weight: 200;
+	}
+
+	.services .container {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto;
+	}
+
+
+	.homeback ul {
+		font-size: 1.4rem
+	}
+
+	.homeback ul li {
+		margin-right: 1rem;
+	}
+
+	.hometext {
+		height: 8rem;
+	}
+
+	.services .item p {
+		font-size: 1.5rem;
+	}
+
+	.separator-portfolio h2 {
+		font-size: 1.7rem;
+	}
+
+	.separator-portfolio h2 {
+		font-size: 1.5rem;
+	}
+
+	article.portfolio {
+		padding-left: 6rem;
+		padding-right: 6rem;
+	}
+
+	.splide__track h4 {
+		right: 2rem;
+		bottom: 0.2rem;
+		font-size: 0.9rem;
+	}
+
+
+
+	.hometext {
+		margin-top: 2rem;
+	}
+
+}
+
+
+
+/***************************************************
+Custom Media Query - 640px and up
+***************************************************/
+@media only screen and (min-width: 640px) {
+	.about-me-1 img {
+		margin-top: 0;
+		width: 50%;
+		margin-bottom: 0;
+
+	}
+
+	.about-me-2 img {
+		width: 55%;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		margin-right: 2rem;
+	}
+
+	header img {
+		width: 10rem;
+		border-radius: 50%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+		border: 2px solid #dabf94;
+	}
+
+	header p,
+	.about-page p {
+		color: #ffe9c7;
+		text-align: center;
+		opacity: 0.8;
+		font-size: 1.1rem;
+	}
+
+	/* Heading */
+
+	h1,
+	.about-page h1 {
+		font-size: 1.6rem;
+	}
+
+	.description h3 {
+		font-size: 1.2rem;
+	}
+
+	.separator h2 {
+		font-size: 1.7rem;
+		padding: 1.8rem;
+	}
+
+	.contact h2 {
+		font-size: 1.7rem;
+	}
+
+	.job h3 {
+		font-size: 1.5rem;
+	}
+
+	h4 {
+		font-size: 1.3rem;
+		text-align: left;
+		margin: 0.5rem;
+		margin-left: 0;
+	}
+
+	.job time {
+		font-size: 1.1rem;
+	}
+
+	article ul {
+		font-size: 1.1rem;
+	}
+
+	article ul li {
+		padding: 0.4rem;
+		line-height: 1.4rem;
+	}
+
+	.about-me li,
+	.about-me p {
+		line-height: 2rem;
+	}
+
+	p,
+	.edu p,
+	time,
+	.contact p {
+		font-size: 1.1rem;
+		margin: 0.3rem;
+	}
+
+	.edu h3,
+	.about-me h4 {
+		font-size: 1.2rem;
+		padding-top: 0.7rem;
+	}
+
+	.about-me-1 h3,
+	.about-me h3 {
+		font-size: 1.4rem;
+	}
+
+
+	.contact h3 {
+		font-size: 1.4rem;
+	}
+
+	.contact a,
+	aside a {
+		font-size: 1rem;
+	}
+
+	footer p {
+		font-size: 0.9rem;
+	}
+
+
+	.job-titles h3 {
+		margin-top: 1.3rem;
+		line-height: 1.7rem
+	}
+
+	nav {
+		padding: 0;
+		display: block;
+	}
+
+	.btn-top {
+		background-color: #948f88;
+		display: inline-block;
+		box-shadow: 1px 1px black;
+		position: fixed;
+		bottom: 1.5rem;
+		right: 1.5rem;
+		border: 1.5px 1.5px #212121;
+	}
+
+	.btn-top i {
+		width: 2rem;
+		padding: 0.4rem;
+		;
+	}
+
+	.btn-top a {
+		color: #dabf94;
+		text-shadow: 1.5px 1.5px #212121;
+		margin-bottom: 0.1rem;
+
+	}
+
+	button {
+		padding: 0;
+		border-width: 0;
+	}
+
+	.social {
+		width: 30%;
+		box-sizing: border-box;
+		margin-top: 0;
+		float: left;
+	}
+
+	.map {
+		display: block;
+	}
+
+	.social ul li {
+		margin-right: 0;
+		display: inline-block;
+
+	}
+
+	label {
+		font-family: "Lato";
+		font-size: 1.2rem;
+	}
+
+	input[type=checkbox] {
+		transform: scale(1.2);
+	}
+
+	input[type=radio] {
+		transform: scale(1.2);
+	}
+
+	textarea {
+		font-size: 1.05rem;
+	}
+
+	form {
+		margin-top: -1rem;
+		margin-right: 10%
+	}
+
+	nav a {
+		font-size: 1rem;
+	}
+
+	nav ul li {
+		margin-right: 1.6rem;
+
+	}
+
+	.services .item {
+		margin-left: 8rem;
+		margin-right: 8rem;
+	}
+
+	.splide__track h4 {
+		right: 3rem;
+		bottom: 1rem;
+		font-size: 1rem;
+	}
+
+
+	.portfolio-page .flex-container {
+		max-width: 60%;
+		margin: 3rem auto 5rem;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		align-content: center;
+
+	}
+
+	.portfolio-page .flex-container .item {
+		margin: 2rem 0.5rem;
+		width: 25rem;
+		height: 11rem;
+	}
+
+	.portfolio-page .flex-container .item.portfolio-fs {
+		flex-basis: 100%;
+
+	}
+
+	.portfolio-page .flex-container .item.portfolio-webdesn {
+		flex-grow: 2;
+		flex-basis: 40%;
+	}
+
+	.portfolio-page .flex-container .item.portfolio-ux {
+		flex-grow: 2;
+		flex-basis: 40%;
+	}
+
+	.portfolio-page .flex-container .item.portfolio-gd {
+		flex-grow: 2;
+	}
+
+
+}
+
+
+/***************************************************
+			 Portrait tablet and up
+***************************************************/
+@media only screen and (min-width: 768px) {
+
+	.about-me-1 img {
+		margin-top: 0;
+		width: 52%;
+		margin-bottom: 0.1rem;
+
+	}
+
+	.about-me-2 img {
+		width: 57%;
+		padding-bottom: 0;
+		margin-bottom: 0.5rem;
+		margin-right: 1rem;
+	}
+
+	header img {
+		width: 11rem;
+		border-radius: 50%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+		border: 3px solid #dabf94;
+	}
+
+	header p,
+	.about-page p {
+		color: #ffe9c7;
+		text-align: center;
+		opacity: 0.8;
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+	}
+
+	/* Heading */
+
+	h1,
+	.about-page h1 {
+		font-size: 1.8rem;
+	}
+
+	.description h3 {
+		font-size: 1.2rem;
+	}
+
+	.separator h2 {
+		font-size: 1.8rem;
+		padding: 2rem;
+	}
+
+	.job h3 {
+		font-size: 1.6rem;
+	}
+
+	h4 {
+		font-size: 1.4rem;
+		text-align: left;
+		margin: 0.5rem;
+		margin-left: 0;
+	}
+
+	.job time {
+		font-size: 1.2rem;
+	}
+
+	article ul {
+		font-size: 1.2rem;
+	}
+
+	article ul li {
+		padding: 0.5rem;
+		line-height: 1.5rem;
+	}
+
+	.about-me li,
+	.about-me p {
+		line-height: 2.2rem;
+	}
+
+	p,
+	.edu p,
+	time {
+		font-size: 1.2rem;
+		margin: 0.3rem;
+	}
+
+	.edu h3,
+	.about-me h4 {
+		font-size: 1.3rem;
+		padding-top: 0.7rem;
+	}
+
+	.about-me-1 h3,
+	.about-me h3 {
+		font-size: 1.5rem;
+	}
+
+	.contact h3 {
+		font-size: 1.5rem;
+	}
+
+	.contact h2 {
+		font-size: 1.8rem;
+	}
+
+	.contact a,
+	aside a,
+	nav a {
+		font-size: 1.1rem;
+	}
+
+	footer p {
+		font-size: 0.95rem;
+	}
+
+
+	.job-titles h3 {
+		margin-top: 1.5rem;
+		line-height: 1.8rem
+	}
+
+	nav {
+		padding: 0;
+	}
+
+	.btn-top {
+		display: inline-block;
+		box-shadow: none;
+		position: fixed;
+		bottom: 1.5rem;
+		right: 1.5rem;
+	}
+
+	.btn-top i {
+		width: 60%;
+		padding: 0.5rem;
+	}
+
+	.btn-top a {
+		color: #dabf94;
+		text-shadow: 1px 2px #212121;
+
+	}
+
+	button {
+		padding: 0;
+		border-width: 0;
+	}
+
+	.social {
+		width: 40%;
+		box-sizing: border-box;
+		margin-top: 0;
+		float: left;
+	}
+
+	.social ul li {
+		margin-right: 0;
+		display: inline-block;
+	}
+
+	.social ul li i {
+		font-size: 2rem;
+	}
+
+	label {
+		font-family: "Lato";
+		font-size: 1.3rem;
+	}
+
+	input[type=checkbox] {
+		transform: scale(1.3);
+	}
+
+	input[type=radio] {
+		transform: scale(1.3);
+	}
+
+	textarea {
+		font-size: 1.1rem;
+	}
+
+	form {
+		margin-top: -1rem;
+		margin-right: 12%
+	}
+
+	.about-me i {
+		display: block;
+	}
+
+	nav ul li {
+		margin-right: 1.7rem;
+
+	}
+
+	.services .item {
+		margin-left: 3rem;
+		margin-right: 3rem;
+	}
+
+
+	.hometext {
+		font-size: 1.6rem;
+	}
+
+	.homeback ul {
+		font-size: 2rem;
+	}
+
+	.services .item p {
+		font-size: 1.4rem;
+	}
+
+	.homefooter p {
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	.separator-portfolio h2 {
+		font-size: 1.9rem;
+	}
+
+	.services .container {
+		grid-template-columns: [start]1fr [one-fourth] 1fr [two-fourth]1fr [end]1fr;
+		grid-template-rows: auto;
+		margin-bottom: 2rem;
+		padding-bottom: 2.5rem;
+	}
+
+	.splide__track h4 {
+		right: 5rem;
+		bottom: 1.7rem;
+		font-size: 1.2rem;
+	}
+
+	#hamburger-menu {
+		display: none;
+	}
+
+}
+
+/***************************************************
+		 Landscape desktop (17”) and up
+***************************************************/
+
+@media only screen and (min-width: 960px) {
+
+	.about-me-1 img {
+		margin-top: 0;
+		width: 52%;
+		margin-bottom: 0.4rem;
+		margin-left: 1.5rem;
+
+	}
+
+	.about-me-2 img {
+		width: 57%;
+		padding-bottom: 0;
+		margin-bottom: 1.1rem;
+		margin-right: 1.5rem;
+	}
+
+	header img {
+		width: 12rem;
+		border-radius: 50%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+		border: 3px solid #dabf94;
+	}
+
+	header p,
+	.about-page p {
+		color: #ffe9c7;
+		text-align: center;
+		opacity: 0.8;
+		font-size: 1.3rem;
+		line-height: 1.6rem;
+	}
+
+	.separator-portfolio h2 {
+		font-size: 2rem;
+	}
+
+	/* Heading */
+
+	h1,
+	.about-page h1 {
+		font-size: 2rem;
+	}
+
+	.description h3 {
+		font-size: 1.3rem;
+	}
+
+	.separator h2 {
+		font-size: 2rem;
+		padding: 3rem;
+	}
+
+	.job h3 {
+		font-size: 1.7rem;
+	}
+
+	h4 {
+		font-size: 1.5rem;
+		text-align: left;
+		margin: 0.5rem;
+		margin-left: 0;
+	}
+
+	.job time {
+		font-size: 1.3rem;
+	}
+
+	article ul {
+		font-size: 1.3rem;
+	}
+
+	article ul li {
+		padding: 0.5rem;
+		line-height: 1.5rem;
+	}
+
+	.about-me li,
+	.about-me p {
+		line-height: 2.2rem;
+	}
+
+	p,
+	.edu p,
+	time {
+		font-size: 1.3rem;
+		margin: 0.4rem;
+	}
+
+	.edu h3,
+	.about-me h4 {
+		font-size: 1.4rem;
+		padding-top: 0.8rem;
+	}
+
+	.about-me-1 h3,
+	.about-me h3 {
+		font-size: 1.6rem;
+	}
+
+	.contact h3 {
+		font-size: 1.7rem;
+	}
+
+	.contact h2 {
+		font-size: 1.8rem;
+	}
+
+	.contact a,
+	aside a,
+	nav a {
+		font-size: 1.15rem;
+	}
+
+	.contact a {
+		line-height: 1.7rem;
+	}
+
+	footer p {
+		font-size: 1rem;
+	}
+
+
+	.job-titles h3 {
+		margin-top: 1.5rem;
+		line-height: 1.8rem
+	}
+
+
+	button {
+		padding: 0;
+		border-width: 0;
+	}
+
+	.social {
+		width: 40%;
+		box-sizing: border-box;
+		margin-top: 0;
+		float: left;
+	}
+
+	.social ul li {
+		margin-right: 0;
+		display: inline-block;
+
+	}
+
+	label {
+		font-family: "Lato";
+		font-size: 1.4rem;
+	}
+
+	input[type=checkbox] {
+		transform: scale(1.3);
+	}
+
+	input[type=radio] {
+		transform: scale(1.3);
+	}
+
+	textarea {
+		font-size: 1.2rem;
+	}
+
+	form {
+		margin-top: -1rem;
+		margin-right: 15%
+	}
+
+}
+
+/***************************************************
+		 Widescreen desktop (24”) and up
+***************************************************/
+
+@media only screen and (min-width: 1160px) {
+
+	/*images*/
+	.about-me-1 img {
+		margin-top: 0;
+		width: 53%;
+		margin-bottom: 0.4rem;
+		margin-left: 1.5rem;
+	}
+
+	.about-me-2 img {
+		width: 58%;
+		padding-bottom: 0;
+		margin-bottom: 1.1rem;
+		margin-right: 1.7rem;
+	}
+
+	header img {
+		width: 13rem;
+		border-radius: 50%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+		border: 3px solid #dabf94;
+	}
+
+	header p,
+	.about-page p {
+		color: #ffe9c7;
+		text-align: center;
+		opacity: 0.8;
+		font-size: 1.4rem;
+		line-height: 1.6rem;
+	}
+
+	/* Heading */
+
+	h1,
+	.about-page h1 {
+		font-size: 2.1rem;
+	}
+
+	.description h3 {
+		font-size: 1.4rem;
+	}
+
+	.separator h2 {
+		font-size: 2.1rem;
+		padding: 3rem;
+	}
+
+	.job h3 {
+		font-size: 1.8rem;
+	}
+
+	h4 {
+		font-size: 1.6rem;
+		text-align: left;
+		margin: 0.5rem;
+		margin-left: 0;
+	}
+
+	.job time {
+		font-size: 1.4rem;
+	}
+
+	article ul {
+		font-size: 1.4rem;
+	}
+
+	article ul li {
+		padding: 0.5rem;
+		line-height: 1.6rem;
+	}
+
+	.about-me li,
+	.about-me p {
+		line-height: 2.3rem;
+	}
+
+	p,
+	.edu p,
+	time {
+		font-size: 1.4rem;
+		margin: 0.5rem;
+	}
+
+	.edu h3,
+	.about-me h4 {
+		font-size: 1.5rem;
+		padding-top: 0.9rem;
+	}
+
+	.about-me-1 h3,
+	.about-me h3 {
+		font-size: 1.7rem;
+	}
+
+	.contact h3 {
+		font-size: 1.8rem;
+	}
+
+	.contact h2 {
+		font-size: 2rem;
+	}
+
+	.contact a,
+	aside a,
+	nav a {
+		font-size: 1.25rem;
+	}
+
+	.contact a {
+		line-height: 2rem;
+	}
+
+	footer p {
+		font-size: 1.1rem;
+	}
+
+
+	.job-titles h3 {
+		margin-top: 1.5rem;
+		line-height: 1.9rem
+	}
+
+
+	button {
+		padding: 0;
+		border-width: 0;
+	}
+
+	.social {
+		width: 40%;
+		box-sizing: border-box;
+		margin-top: 0;
+		float: left;
+	}
+
+	.map {
+		padding-bottom: 2rem;
+	}
+
+	.social ul li {
+		margin-right: 0;
+		display: inline-block;
+
+	}
+
+	label {
+		font-family: "Lato";
+		font-size: 1.5rem;
+	}
+
+	input[type=checkbox] {
+		transform: scale(1.5);
+	}
+
+	input[type=radio] {
+		transform: scale(1.5);
+	}
+
+	textarea {
+		font-size: 1.3rem;
+	}
+
+	form {
+		margin-top: -1rem;
+		margin-right: 15%
+	}
+
+	nav ul li {
+		margin-right: 2rem;
+
+	}
+
+	.splide__track h4 {
+		right: 6rem;
+		bottom: 2rem;
+		font-size: 1.8rem;
+	}
+
+}
