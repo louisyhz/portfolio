@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<!--       head-->
+
+<head>
+	<title>Yuhong Zhou Design Projects</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Yuhong Zhou's Resume">
+	<meta name="keywords" content="Film Sales, Film development, Web Design, UX Design, Web Development">
+	<meta name="author" content="Yuhong Zhou">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--             reset-->
+	<link rel="reset" href="../../css/reset.css">
+	<!--               fonts-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+	<!--            Splider Slider-->
+	<link rel="stylesheet" href="../../css/plugins/splide/splide.min.css">
+	<!--			Mmenu hamburger menu-->
+	<link rel="stylesheet" href="../../css/plugins/mmenu/mmenu-light.css">
+	<!--	Halkabox-->
+	<link rel="stylesheet" href="../../css/plugins/halkabox/halkaBox.min.css">
+
+	<link rel="stylesheet" href="../../css/styles.css">
+
+</head>
+<!--        END of Head-->
+
+<!--        Body-->
+
+<body class="portfolio-page">
+	<!--header-->
+	<header id="top my-header">
+		<div id="my-header">
+			<a id="hamburger-menu" href="#my-menu"><i class="fas fa-2x fa-bars"></i></a>
+			<nav id="my-menu" class="navigation">
+				<ul>
+					<li>
+						<a href="../../index.html">Home</a>
+					</li>
+					<li>
+						<a href="../../html/portfolio/Resume.html">Resume</a>
+					</li>
+					<li>
+						<a href="../../html/about.html">About</a>
+					</li>
+
+					<li>
+						<a href="../../html/contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!--           END of header-->
+	<!--           main-->
+	<main class="homeback" id="homeback">
+		<article>
+			<p class="hometext">Achieve higher sales with better designs and strategies with
+				<em><strong>Yuhong</strong></em>.
+			</p>
+		</article>
+
+		<article>
+			<section class="separator-portfolio">
+				<h2>Portfolio</h2>
+			</section>
+			<section class="flex-container">
+
+				<a class="item portfolio-fs" href="#">
+					<h4>
+						Film Sales
+					</h4>
+				</a>
+
+				<a class="item portfolio-webdesn" href="../../html/portfolio/Web-Design.html">
+					<h4>
+						Web Design
+					</h4>
+				</a>
+				<a class="item portfolio-ux" href="#">
+					<h4>
+						UX Design
+					</h4>
+				</a>
+
+				<a class="item portfolio-gd" href="./Photography.html">
+					<h4>
+						Photo &amp; Video
+					</h4>
+				</a>
+
+
+			</section>
+		</article>
+
+		<article class="flex-container">
+
+		</article>
+	</main>
+	<!--           END of main-->
+	<!--   aside-->
+	<aside>
+		<section>
+			<section id="contact" class="contact">
+				<h3>Contact</h3>
+				<a href="https://www.linkedin.com/in/yuhong-zhou-78055326/">Linkedin Profile</a>
+				<br>
+				<a href="mailto:zhou0200@algonquinlive.com">E-mail</a>
+			</section>
+		</section>
+	</aside>
+	<!--   END of aside-->
+
+	<!--           footer-->
+	<section class="homefooter">
+		<p>All Rights Reserved. &copy; Yuhong Zhou 2021.</p>
+	</section>
+	<!--           END of footer-->
+
+	<!--          BACK TO TOP BUTTON-->
+	<button class="btn-top">
+		<a href="#top"><i class="fas fa-2x fa-caret-square-up"></i></a>
+	</button>
+	<!--           END OF BACK TO TOP BUTTON-->
+
+
+	<!---------------Scripts-------------->
+
+	<!--            Fontawesome icons-->
+	<script src="https://kit.fontawesome.com/9b222512c1.js" crossorigin="anonymous"></script>
+
+	<!--    Mmenu hamburger menu-->
+	<script src="../../js/mmenu/mmenu-light.js"></script>
+	<script>
+		document.addEventListener(
+			"DOMContentLoaded", () => {
+				const menu = new MmenuLight(
+					document.querySelector("#my-menu"),
+					"(max-width: 639px)"
+				);
+
+				const navigator = menu.navigation();
+				const drawer = menu.offcanvas();
+
+				document.querySelector("a[href='#my-menu']")
+					.addEventListener("click", (evnt) => {
+						evnt.preventDefault();
+						drawer.open();
+					});
+			}
+		);
+	</script>
+
+	<!--	Halkabox-->
+	<script src="../../js/halkabox/halkaBox.min.js"></script>
+	<!--initialisation-->
+	<script src="../../js/halkabox/halkaBox.init.js">
+	</script>
+</body>
+<!--   END OF Body--></html>
